@@ -1,3 +1,6 @@
+body {
+	
+}
 section {
 	width: 800px;
 	margin: 100px auto;
@@ -8,9 +11,18 @@ section p {
 	color: #454545;
 }
 section h1 {
-	font: 32px 'Open Sans';
+	font: 38px 'Open Sans';
 	font-weight: bold;
+	-webkit-text-stroke: 1px #454545;
+	text-shadow: -1.5px 1.5px 3px #ffffff,
+				  1.5px 1.5px 3px #ffffff,
+				  1.5px -1.5px 0 #ffffff,
+				  -1.5px -1.5px 0 #ffffff;
 }
 section p {
 	font: 16px 'Open Sans';
+	background: #ffffff;
+}
+#background {
+	background: url(../img/summer.jpg);
 }
